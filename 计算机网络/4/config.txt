@@ -1,0 +1,22 @@
+Building configuration...
+
+Current configuration : 1097 bytes
+!
+version 12.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname SwA
+!
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
+enable password cisco
+!
+!
+spanning-tree mode pvst
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
